@@ -1,0 +1,30 @@
+
+
+@import "tailwindcss";
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+ @theme {
+  --color-*: initial;
+  --color-white: #fff;
+  --color-purple: #3f3cbb;
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+  --color-back:#081b29;
+  --color-darkThem:#11001F;
+
+} 
+
+@theme {
+  --animate-p-spin: p-spin 10s linear infinite;
+
+}
+
+@keyframes p-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}  
+

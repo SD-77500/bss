@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santanu Saoo</title>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+<link href="./output.css" rel="stylesheet">
+
+        <!-- <link href="./input.css" rel="stylesheet"> -->
+    
+     
+</head>
+<body class="overflow-x-hidden  dark:bg-darkThem dark:text-white " >
+<!-- bg-[var(--color-bg)] text-[var(--color-text)] -->
+ <!-- <div class="fixed top-00 right-0 w-11/12 -z-10 translate-y-[-80%]">
+    <img src="vv" alt="" class="w-full">
+ </div> -->
+
+
+    <nav class="w-full fixed font-extrabold px-5 lg:px-8 xl:px[8%] py-4 flex items-center justify-between to-50 
+      top-0 left-0 z-50">
+        <img src="" alt="logo" class="w-28 cursor-pointer mr-14">
+        <ul class="hidden md:flex items-center gap-6 lg:gap-8
+        rounded-full px-12 py-3 shadow-sm     dark:border dark:border-white/70 dark:bg-darkThem">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">My work</a></li>
+            <li><a href="#contact">Contact me</a></li>
+        </ul>
+        <div class="flex items-center gap-2 ">
+   <button  id="sd" onclick="toggleTheme()" >
+    <img src="moon.png" alt="" class="w-10 dark:hidden">
+     <img src="icons8-sun-50.png" alt="" class="w-12  hidden dark:block "> 
+</button>
+        <a href="#contact"
+        class="hidden lg:flex items-center gap-3 px-10 py-2.5
+         rounded-full ml-4 border  border-gray-700">
+            Contact <img src="" alt="">
+        </a>
+           <button class="w-10 md:hidden" onclick="openmenu()">
+            <img src="menu.png" alt="" class="dark:hidden">
+            <img src="icons8-menu-bar-50.png" alt="" class="hidden dark:block">
+           </button>
+        </div>
+   
+
+
+  
+<!-- mobile menu -->
+        <ul id="sidemenu" class="flex md:hidden flex-col py-20 px-10 fixed -right-64 bottom-0 w-64 z-50 h-screen bg-rose-50
+        transition duration-500 gap-4 50  dark:bg-purple bg-back text-white mt-20">
+
+           <div class="w-7 absolute right-6 top-5" onclick="closemenu()">
+            <img src="multiply-mathematical-sign.png" alt="" class="hidden dark:block pt-20">
+            <img src="cross.png" alt="" class="w-10/12 dark:hidden  pt-20">
+           </div >
+            <li><a href="#top" onclick="closemenu()">Home</a></li>
+            <li><a href="#about" onclick="closemenu()">About</a></li>
+            <li><a href="#services" onclick="closemenu()">Services</a></li>
+            <li><a href="#work" onclick="closemenu()">My work</a></li>
+            <li><a href="#contact" onclick="closemenu()">Contact me</a></li>
+        </ul>
+
+    </nav>
+<!-- -----header section------ -->
+ <div class="w-8/12 max-w-3xl text-center mx-auto  flex flex-col items-center
+ justify-center pt-20 ">
+   <img src="ss-3.jpg" alt="" class="rounded-full w-32 ">
+   <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-2">Hi,I am Santanu sahoo</h3>
+   <h1 class="text-3xl sm:text-6xl lg:text-[66px]">Fronted web developer</h1>
+   <p class="max-w-3xl ">Creative and detail-oriented Frontend Web Developer with a passion for crafting visually appealing, user-friendly, and responsive websites. Skilled in HTML, CSS, Tailwind CSS, and JavaScript, with a focus on building clean, maintainable code and delivering seamless user experiences. Dedicated to continuous learning, staying updated with modern web trends, and translating design concepts into functional digital products.</p>
+
+<div class="flex flex-col sm:flex-row items-center gap-4">
+    <a href="#contact" class="px-10 py-2 border rounded-full bg-gradient-to-r form-[#b820e6] to-[#da7d20]
+     flex gap-2 mt-5
+      dark:border-white/100">Contact me
+       <img src="right-arrow.png" alt="" class="w-8 dark:hidden">
+        <img src="right-arrow.png" alt="" class="w-8  hidden dark:block">
+    </a>
+
+
+
+     <a href="resume.pdf" download
+     class="  px-10 py-3 border  rounded-full bg-white
+    text-wrap flex gap-2  mt-5 text-back">MY resume <img src="downloads.png" alt="" class="w-6"></a>
+</div>
+ </div>
+
+<!-- -----------about me------ -->
+<div id="about" class="w-full  px-[12%] py-10 scroll-mt-20  ">
+    <h4 class="text-center mb-2 text-lg">Introduction</h4>
+    <h2 class="text-center text-5xl">About me</h2>
+
+<div class="flex flex-col w-full lg:flex-row items-center gap-20 my-20 pt-20">
+    <div class="max-w-max mx-auto relative">
+        <img src="sd-1-Photoroom.png" alt="" class="w-64 sm:w-80
+        rounded-3xl max-w-none">
+        <div class="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/4 shadow[0_4px_55px_rgba(149,0,162,0,15)]
+        flex items-center justify-center ">
+        <img src="curved-text.png" alt="" class="w-full animate-p-spin">
+        <img src="coding.png" alt="" class="w-1/4 absolute top-1/2 left-1/2
+        -translate-x-1/2 -translate-y-1/2">
+    </div>
+    </div>
+    <div class="flex-1">
+        <h1 class=""my-4 font-semibold text-gray-700">SANTANU SAHOOO</h1>
+        <p> 17TH CSE(2024-28)</p>
+    <ul class="grid grid-col-1 sm:grid-cols-3 gap-6 max-w-2xl">
+        <li class="border-[0.5px] border-gray-900 rounded-xl p-6 cursor-pointer
+        hover:bg-blue-300 hover:shadow-[4px_4px_0_#0000]">
+        <h3 class="my-4 font-semibold text-gray-700">PROJECT</h3>
+        <p class="text-gray-800">TIC-TAC-TOE GAME,</p>
+        <p class="text-gray-800">WEATHER WEBSITE,</p>
+        <p class="text-gray-800">PORTFOLIO WEBSITE</p>
+        </li>
+   
+     
+        <li class="border-[0.5px] border-gray-900 rounded-xl p-6 cursor-pointer
+        hover:bg-blue-200 hover:shadow-[4px_4px_0_#0000]">
+        <h3 class="my-4 font-semibold text-gray-700">Education</h3>
+        <p class="text-gray-800">Btech,COMPUTER SCIENCE ENGINEERING</p>
+        </li>
+    
+     
+        <li class="border-[0.5px] border-gray-900 rounded-xl p-6 cursor-pointer
+        hover:bg-blue-200 hover:shadow-[4px_4px_0_#0000]">
+        <h3 class="my-4 font-semibold text-gray-700">Languages</h3>
+        <p class="text-gray-800">HTML,CSS,JavaScript</p>
+        </li>
+    </ul>
+    <h4 class="my-6 text-gray-900">Tool I used</h4>
+    <ul class="flex items-center gap-3 sm:gap-5">
+        <li class="flex items-center justify-center w-10 sm:w-15 cursor-pointer aspect-square border border-gray-950"><img src="vscode.png" alt="" class="w-10 sm:w-10"></li>
+        <li class="flex items-center justify-center w-10 sm:w-15 cursor-pointer aspect-square border border-gray-950"><img src="github-logo.png" alt="" class="w-10 sm:w-10"></li>
+        <!-- <li class="flex items-center justify-center w-10 sm:w-15 cursor-pointer aspect-square border border-gray-950"><img src="" alt="" class="w-10 sm:w-10"></li> -->
+    </ul>
+    </ul>
+    </ul>
+</div>
+</div>
+</div>
+<!-- ------services------- -->
+ <!-- <div id="services" class="w-full px-[12%] py-10 scroll-mt-20" >
+    <h4 class="text-center mb-2 text-lg">What I offer</h4>
+    <h2 class="text-center text-5xl">My services</h2>
+    <p class="text-center max-w-2xl mx-auto mt-5 mb-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias numquam veritatis, labore dolore nesciunt ex impedit suscipit sunt asperiores amet. Magnam, impedit error odio quaerat molestiae aliquid similique quo voluptatem.</p>
+
+    <div class=" grid grid-cols-4 gap-6 my-10">
+        <div class="border border-gray-950 rounded-lg px-8 py-10">
+            <img src="photo/coding.png" alt="" class="w-10 px-8 py-12">
+            <h3 class="text-lg my-4">Web design</h3>
+            <p>Web development is the process of building rograming....</p>
+             <a href="">Read more <img src="photo/right-arrow.png" alt=""></a>
+        </div>
+    </div>
+ </div> -->
+<!-- ------------contact----------- -->
+ <div id="contact" class=" w-full px-[12%] py-10 scroll-mt-20
+ bg-[url('./photo/bg.png')] bg-no-repeat bg-[length:90%_auto] bg-center">
+    <h4 class="text-center mb-2 text-lg">Connect with  me</h4>
+    <h2 class="text-center text-5xl">get in touch</h2>
+    <p class="text-center max-w-2xl mx-auto mt-5 mb-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quisquam nisi sed unde sunt, nemo repellat et cumque iure commodi.</p>
+    <form method="post" action="https://api.web3forms.com/submit" class="max-w-2xl mx-auto">
+         <input type="hidden" name="access_key" value="dc1fb8a1-6312-4678-9c1c-89dbcfbdc32c">
+        <div class="grid grid-cols-2 gap-6 mt-10 mb-8">
+        
+            <input type="text" placeholder="Enter your name"class="flex-1 p-3
+            outline-none border border-[0.5px] border-gray-400 rounded-md" required name="name">
+
+                 <input type="email" placeholder="Enter your Email"class="flex-1 p-3
+            outline-none border border-[0.5px] border-gray-400 rounded-md" required name="Email">
+        </div>
+        <textarea rows="6" placeholder="Enter your message" 
+  class="w-full p-4 outline-none border-[0.5px] border-gray-700 rounded-md mb-6 bg-[url('./bg.png')] bg-cover
+   dark:bg-none" required name="message">
+</textarea>
+<!-- 
+        <textarea rows="6" placeholder="Enter your message" 
+        class="w-full p-4 outline-none border-[0.5px] border-gray-700 rounded-md 
+         mb-6  " > -->
+  
+               </textarea>
+       <button class="py-3 px-8 w-max flex items-center justify-between
+       gap-2 bg-black/80 text-black rounded-full mx-auto hover:bg-slate-500 
+        dark:bg-transparent dark:border dark:border-white/50 dark:hover:bg-back">Submit now
+        <img src="" alt="">
+       </button>
+ 
+    </form>
+
+ </div>
+ <!-- ------------footer----------- -->
+<div class="mt-20">
+    <div class="text-center">
+        <img src="" alt="">
+        <div class="w-max flex items-center gap-2 mx-auto">
+            <img src="mail.png" alt="" class="w-6 dark:hidden">
+              <img src="icons8-email-50.png" alt="" class="w-6 hidden dark:block">
+           santanu.sahoo14112006@gmail.com
+    
+             
+         
+        
+    </div>
+      <div class="text-center sm:flex items-center justify-between
+      border-t border-gray-700 mx-[10%] mt-12 py-6">
+       <p></p>
+        <ul class="flex items-center gap-10 justify-center mt-4 sm:mt-0">
+            <li ><a href="https://www.instagram.com/santanu_sahoo_111/"><img src="instagram.png" alt="" class="w-8">Instagram </a></li>
+           
+            <li><a href="https://www.facebook.com/santanu sahoo"><img src="facebook.png" alt="" class="w-8">facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/santanu sahoo/"> <img src="linkedin.png" alt="" class="w-8">linkdin</a></li>
+            
+        
+        </ul>
+      </div>
+</div>
+
+
+        <script src="script.js"></script>
+</body>
+</html>
